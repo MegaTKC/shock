@@ -11,5 +11,6 @@ if [[ "$action" == "y" ]]; then
     bash main.sh
 fi
 if [[ "$action" == "n" ]]; then
+    echo "Remember, to run Shock, you need to run "bash ~/shock/main.sh" in your terminal."
     exit
 fi
